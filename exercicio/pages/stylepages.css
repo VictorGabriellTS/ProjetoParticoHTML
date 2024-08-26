@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffc63577;
+}
+
+.wrapper div img {
+    width: 20%;
+}
+
+.wrapper div nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.wrapper div nav ul a {
+    text-decoration: none;
+    color: #000;
+}
